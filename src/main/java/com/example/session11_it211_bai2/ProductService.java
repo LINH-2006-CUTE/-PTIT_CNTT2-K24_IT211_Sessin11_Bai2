@@ -64,7 +64,6 @@ public class ProductService {
 
     public interface ProductRepository {
         Optional<Product> findById(String id);
-
         Product save(Product product);
     }
 }
